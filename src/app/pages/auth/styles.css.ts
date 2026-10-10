@@ -1,6 +1,10 @@
 import { style } from '@vanilla-extract/css';
 import { DefaultReset, color, config, toRem } from 'folds';
 
+export const AuthScroll = style({
+  backgroundColor: color.Background.Container,
+});
+
 export const AuthLayout = style({
   minHeight: '100%',
   backgroundColor: color.Background.Container,
